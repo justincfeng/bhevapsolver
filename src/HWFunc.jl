@@ -60,7 +60,8 @@ end     #---------------------------------------------------------------
     pars(tpfl=Float64,αn=-1)
         
 This function sets the values of the parameters `s0`, `z0` and `b0`,
-as well as the 
+as well as the constants used throughout. Unit conventions may be found
+in appendix C of (arXiv:2503.20696).
 """
 function pars(tpfl=Float64,αn=-1)
     # Numbers
@@ -171,9 +172,8 @@ end     #---------------------------------------------------------------
 """
     RSHW(σm,σet,tpfl=Float64,αn=-1)
     
-This function computes the true charge rescaling parameter `σe` from the
-charge pseudoscaling parameter `σet` and the dimensionless threshold 
-mass parameter `σm`.
+This function computes the rescaling of the parameters `s0`, `b0` and
+`σM` under a rescaling that preserves `z0`.
 """
 function RSHW(σm,σet,tpfl=Float64,αn=-1)
     (s0,z0,b0)    = pars(tpfl,αn)[1]
@@ -196,7 +196,9 @@ end     #---------------------------------------------------------------
 """
     RSHWgen(σm,σe,σM,tpfl=Float64)
     
-This function computes the 
+This function computes the rescaling of the parameters `s0`, `z0`, and 
+`b0` under a general rescaling given by the rescaling parameters `σm`,
+`σe` and `σM`.
 """
 function RSHWgen(σm,σe,σM,tpfl=Float64,αn=-1)
     (s0,z0,b0)    = pars(tpfl,αn)[1]

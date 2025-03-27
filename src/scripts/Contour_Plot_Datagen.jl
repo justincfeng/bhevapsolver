@@ -85,9 +85,10 @@ end     #---------------------------------------------------------------
 """
     μunvz0( σm , σet , tpfl=Float64 )
     
-This function computes the mass of a black hole with an evaporation time 
-at the age of the universe if it is initially near extremal or
-on the attractor curve.
+This function computes the rescaled mass `μ` on the attractor curve,
+under the assumptions that the lifetime is approximately the age of the
+universe and that the black hole does not approach extremality. The
+output is normalized to `z0`
 """
 function μunvz0(σm,σet,tpfl=Float64)
     Δτattz0=tpfl(0.3054715988206478)
