@@ -2,7 +2,7 @@
 
 This repository contains a Julia implementation of a nondimensionalized version of a first order system of ordinary differential equations describing the evaporation of a charged black hole.
 
-The original set of equations may be found in [W.A. Hiscock and L.D. Weems, *Evolution of charged evaporating black holes* Phys.Rev.D 41 (1990) 1142](https://doi.org/10.1103/PhysRevD.41.1142), and the nondimensionalized equations implemented here are described in Sec. 3.1 of J. Santiago, J. Feng, S. Schuster, and M. Visser, *Immortality through the dark forces: Dark-charge primordial black holes as dark matter candidates* [arXiv:2503.20696](https://arxiv.org/abs/2503.20696). The scripts included in this repository may be regarded as supplementary material for the latter.
+The original set of equations may be found in [W.A. Hiscock and L.D. Weems, *Evolution of charged evaporating black holes* Phys.Rev.D 41 (1990) 1142](https://doi.org/10.1103/PhysRevD.41.1142), and the nondimensionalized equations implemented here are described in Sec. 3.1 of J. Santiago, J. Feng, S. Schuster, and M. Visser, *Immortality through the dark forces: Dark-charge primordial black holes as dark matter candidates* ([arXiv:2503.20696](https://arxiv.org/abs/2503.20696)). The scripts included in this repository may be regarded as supplementary material for the latter.
 
 The code requires the 
 following Julia packages:
