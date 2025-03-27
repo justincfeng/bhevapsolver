@@ -18,3 +18,5 @@ To run the HWscript_DE.jl script, run the following command:
     > julia HWscript_DE.jl
 
 Alternatively, you can simply paste the contents of HWscript_DE.jl into the julia REPL (make sure julia is running in the "src/scripts/" directory). This script will generate plots (describing the evolution of the mass and charge) which may be found in the "plots" directory.
+
+Before running the script Contour_Plot.jl, please run Contour_Plot_Datagen.jl first (which supports multithreading).
