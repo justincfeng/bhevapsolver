@@ -186,7 +186,7 @@ plot!(x->log10.(MzMunivCrv(x)[1]),x->log10.(MzMunivCrv(x)[2]),
     linewidth=1, color=:black)
 
 plot!(x->log10.(curvMC1(x)),x->log10.(x),tpfl(1e-8),
-    tpfl(1.0),label=L"M_{\mathrm{univ}}\approx\hbar/m_\mathrm{e}",
+    tpfl(1.0),label=L"M_{\mathrm{univ}}\approx\hbar/m_\chi",
     linewidth=1, color=:black,linestyle=:dot)
 
 Plots.savefig(dir * "contour_plot_Muniv.pdf")
