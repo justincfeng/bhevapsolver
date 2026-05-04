@@ -2,7 +2,7 @@
 #   Packages
 #-----------------------------------------------------------------------
 
-using OrdinaryDiffEq, Plots, ArbNumerics, LaTeXStrings
+using OrdinaryDiffEq, SciMLBase, Plots, ArbNumerics, LaTeXStrings
 
 #-----------------------------------------------------------------------
 #   Types

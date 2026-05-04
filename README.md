@@ -7,7 +7,7 @@ The original set of equations may be found in [W.A. Hiscock and L.D. Weems, *Evo
 The code requires the 
 following Julia packages:
 
-    OrdinaryDiffEq, ArbNumerics, ImplicitEquations, LaTeXStrings, LsqFit, Plots, Pyplot
+    OrdinaryDiffEq, SciMLBase, ArbNumerics, ImplicitEquations, LsqFit, Plots, Pyplot, LaTeXStrings
     
 To run the code, open a terminal and cd to the following directory:
 
